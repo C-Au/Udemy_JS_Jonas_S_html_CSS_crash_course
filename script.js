@@ -1,5 +1,5 @@
 
-const modal = document.getElementById("popup");
+const modal = document.getElementById("mypopup");
 const openModalBtn = document.getElementById("openModalBtn");
 const closeModalBtn = document.getElementById("closeModalBtn");
 
