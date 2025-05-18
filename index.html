@@ -27,9 +27,11 @@
         <p class="first">Please fill in this form (thanks) :</p>
 
         <input type="text" placeholder="Your name">
-        <button id="popupButton">Ok!</button>
-        <div id="popup" class="popup">
-            <span class="close">&times;</span>
+        <!-- Button to open the modal -->
+        <button class="button" id="openModalBtn">Ok!</button>
+
+        <div class="popup" id="popup" >
+            <button class="close-button" id="closeModalBtn">&times;</button>
             <p>This is a popup message.</p>
         </div>
         <script src="script.js"></script>
